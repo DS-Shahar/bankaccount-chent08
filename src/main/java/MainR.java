@@ -1,7 +1,8 @@
+
 public class Main {
 	
 	public static void main(String[] args) {
-		
+		// RECTANGLE:
 		Rectangle r1 = new Rectangle(4,4);
 		Rectangle r2 = new Rectangle(5,8);
 		
@@ -23,6 +24,16 @@ public class Main {
 		
         System.out.println("The perimeter of r2: " + r2.calcPerimeter());
 	
+        
+      
+        // CIRCLE:
+        
+        Circle c1 = new Circle(5);
+        Circle c2 = new Circle(7.2);
+        
+        System.out.println("The are of circle 1 is: " + c1.circleArea());
+        System.out.println("The are of circle 2 is: " + c2.circleArea());
+        
 	}
 
 }
