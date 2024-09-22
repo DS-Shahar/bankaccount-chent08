@@ -42,7 +42,9 @@ public class Rectangle {
 	}
 	
 	public String toString() {
-		return("Length: "+ this.length + ", Width: "+ this.width);
+		String s = "Length: "+ this.length;
+		s += ", Width: "+ this.width;
+		return s;
 	}
 
 }
